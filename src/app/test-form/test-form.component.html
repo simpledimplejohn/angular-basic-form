@@ -1,0 +1,19 @@
+<h1>Quick Form</h1>
+<h3>Example of two way data binding</h3>
+<form #formObject="ngForm" (submit)="getData(formObject.value)">
+  <p>formObject value:</p>
+  {{formObject.value | json }}
+  <hr />
+  <p>user model value:</p>
+  {{userModel | json}}
+  <hr />
+
+
+  <div class="form-group">
+    <label>Form Label Here</label>
+    <input type="text" class="form-control" id="name" [(ngModel)]="userModel.name" name="name"  placeholder="name">
+
+  </div>
+  <button class="btn btn-primary">Submit</button>
+</form>
+
