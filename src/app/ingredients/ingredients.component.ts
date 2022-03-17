@@ -10,6 +10,7 @@ import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 })
 export class IngredientsComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
