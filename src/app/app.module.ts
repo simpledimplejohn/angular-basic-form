@@ -10,6 +10,7 @@ import { IngredientsComponent } from './ingredients/ingredients.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ShelterComponent } from './shelter/shelter.component';
+import { LoanTypesComponent } from './loan-types/loan-types.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ShelterComponent } from './shelter/shelter.component';
     TestFormComponent,
     IngredientsComponent,
     CheckoutComponent,
-    ShelterComponent
+    ShelterComponent,
+    LoanTypesComponent
   ],
   imports: [
     BrowserModule,

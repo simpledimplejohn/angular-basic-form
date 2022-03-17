@@ -1,3 +1,4 @@
+import { LoanTypesComponent } from './loan-types/loan-types.component';
 import { ShelterComponent } from './shelter/shelter.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { IngredientsComponent } from './ingredients/ingredients.component';
@@ -10,7 +11,8 @@ const routes: Routes = [
   {path: "template", component: TestFormComponent },
   {path: "ingredients", component: IngredientsComponent},
   {path: "checkout", component: CheckoutComponent},
-  {path: "shelter", component: ShelterComponent}
+  {path: "shelter", component: ShelterComponent},
+  {path: "loan-types", component: LoanTypesComponent}
 ];
 
 @NgModule({
